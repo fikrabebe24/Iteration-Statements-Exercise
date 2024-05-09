@@ -143,7 +143,7 @@ namespace IterationStatements
         //Write a method to display the multiplication table(from 1 to 12) of a given integer
         public static void OneToTwelveMultiplicationTable(int num)
         {
-            for(int i = 0; i < 2; i++)
+            for(int i = 0; i < 12; i++)
             {
                 Console.WriteLine($"{i} x {num} = {i * num}");
             }
